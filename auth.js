@@ -14,7 +14,7 @@ module.exports = function(passport){
     passport.use(new FacebookStrategy({
         clientID : '496864450983459',
         clientSecret : '86ddfbd9310f58c9f0d641427156ff3d',
-        callbackURL : '/auth/facebook/callback'
+        callbackURL : 'https://still-wildwood-78311.herokuapp.com/auth/facebook/callback'
     }, function(accessToken, refreshToken, profile, done){
         console.log('AccessToken: ' + accessToken);
         console.log('RefreshToke: ' + refreshToken);
