@@ -21,6 +21,7 @@ module.exports = function(passport){
         console.log('Profile ID: ' + profile.id);
         console.log('Profile name: '+ profile.displayName + profile._json)
         console.log('Done: ' + done);
+        done(null,profile)
     }));
 
 

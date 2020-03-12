@@ -36,7 +36,7 @@ app.use(passport.session());
 app.get('/auth/facebook',passport.authenticate('facebook'));
 app.get('/auth/facebook/callback',passport.authenticate('facebook',
 {
-  successRedirect:'https://still-wildwood-78311.herokuapp.com/success',
+  successRedirect:'/success',
   failureRedirect:'/users'
 }));
 
