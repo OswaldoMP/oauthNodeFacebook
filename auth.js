@@ -19,7 +19,7 @@ module.exports = function(passport){
         console.log('AccessToken: ' + accessToken);
         console.log('RefreshToke: ' + refreshToken);
         console.log('Profile ID: ' + profile.id);
-        console.log('Profile name: '+ profile.displayName + profile._json)
+        console.log('Profile name: '+ profile.displayName + profile)
         console.log('Done: ' + done);
         done(null,profile)
     }));

@@ -2,6 +2,12 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css')
   body
+    script(defer src="https://kit.fontawesome.com/0141093272.js" crossorigin="anonymous")
+    script.
+      function move(){
+          window.location.href='/auth/facebook'
+      }
     block content
+
