@@ -9,7 +9,6 @@ require('./auth')(passport);
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var testHtml = require('./views/test.html');
 
 var app = express();
 
