@@ -12,8 +12,8 @@ module.exports = function(passport){
     });
 
     passport.use(new FacebookStrategy({
-        clientID : '496864450983459',
-        clientSecret : '86ddfbd9310f58c9f0d641427156ff3d',
+        clientID : '560254884593287',
+        clientSecret : '9e750f9497e480a99f604397125fd035',
         callbackURL : 'https://still-wildwood-78311.herokuapp.com/auth/facebook/callback'
     }, function(accessToken, refreshToken, profile, done){
         console.log('AccessToken: ' + accessToken);
